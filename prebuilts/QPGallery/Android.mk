@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := QPGallery
-LOCAL_OVERRIDES_PACKAGES := Gallery2 Gallery3D GalleryNew3D
+LOCAL_OVERRIDES_PACKAGES := Gallery2 Gallery3D GalleryNew3D CameraRoll
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_BUILT_MODULE_STEM := package.apk
