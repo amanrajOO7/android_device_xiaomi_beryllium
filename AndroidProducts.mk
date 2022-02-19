@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_beryllium.mk
+    $(LOCAL_DIR)/derp_beryllium.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_beryllium-user \
+    derp_beryllium-userdebug \
+    derp_beryllium-eng
