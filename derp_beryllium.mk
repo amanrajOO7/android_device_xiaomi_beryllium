@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 DERP_BUILDTYPE := Official
+TARGET_USES_BLUR := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_beryllium
