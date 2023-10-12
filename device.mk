@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
 
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.0.vendor
+    android.hardware.health@2.1.vendor
 
 # Input
 PRODUCT_COPY_FILES += \
