@@ -79,6 +79,9 @@ PRODUCT_PACKAGES += \
     com.fingerprints.extension@1.0.vendor \
     vendor.goodix.hardware.fingerprintextension@1.0.vendor
 
+# Fastboot
+TARGET_BOARD_FASTBOOT_INFO_FILE := $(LOCAL_PATH)/fastboot-info.txt
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     com.fingerprints.extension@1.0.vendor \
